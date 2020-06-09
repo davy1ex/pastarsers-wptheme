@@ -1,0 +1,90 @@
+/* MENU */
+.menu {    
+    width: 70%;
+    margin: auto;
+    
+    padding: 10px;
+    /* align-items: center; */
+}
+
+.menu-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .search-field {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+/* MENU */
+
+
+
+/* POST */
+.posts {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.post {
+    width: 50%;
+    border: 1px solid black;
+    margin-bottom: 25px;
+}
+
+.post .img-container {
+    display: flex;
+    justify-content: center;
+}
+.post img {
+    padding: 1px;
+    width: 99%;
+}
+
+.post .text {
+    padding: 5px;
+}
+
+.post .text .tags {
+    padding: 5px;
+}
+
+.bottom-container {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+/* POST */
+
+
+/* FOR PHONE */
+@media only screen and (max-width: 763px) {
+    .menu {    
+        width: 95%;
+        margin: auto;
+        
+        padding: 10px;
+        /* align-items: center; */
+    }
+    
+    .menu-wrapper {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .posts {
+        width: 95%;
+    }
+    .post {
+    
+        width: 90%;
+    }
+}
+/* FOR PHONE */
