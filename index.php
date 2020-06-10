@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
 
-    <?php wp_head(); ?> 
+    <?php wp_head()?> 
+    
 </head>
-<body>
-    <?php echo get_stylesheet_uri() . '/style.css' ?>
+<body <?php body_class(); ?>>
+<?php wp_body_open(); ?>
     <header>
         <div class="header-wrapper">
             <div class="header-section">
